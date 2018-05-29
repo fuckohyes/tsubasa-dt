@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_final_stats">Final Stats</a></h5>
+      <div class="sub">&nbsp;</div>
+      <app-player-stats-result [player]="player"></app-player-stats-result>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_passive">Passive</a></h5>
+      <div class="sub" i18n="@@ui_passive_skill_desc">Passive bonus (in %)</div>
+      <app-player-stats [player]="player" [stats]="player.data.bonus_skills['passive']" [bonus]="true" [physical]="false"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_final_stats" i18n="@@ui_special_skill">Special Skills</a></h5>
+      <div class="sub" i18n="@@ui_special_skill_desc">Special skills power</div>
+      <app-player-stats [player]="player" [stats]="player.data.skills" [bonus]="true" [physical]="false"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_final_skill_stats">Skill Final Stats</a></h5>
+      <div class="sub">&nbsp;</div>
+      <app-player-stats-result [player]="player" [specialSkills]="true" [physical]="false"></app-player-stats-result>
+    </div>
+  </div>
+</div>

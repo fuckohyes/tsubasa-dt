@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ui_base_stats" datatype="html">
+        <source>Base Stats</source>
+        <target>Stat. de base</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_passive" datatype="html">
+        <source>Passive</source>
+        <target>Passif</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_passive_desc" datatype="html">
+        <source>Passive stat bonus (in %)</source>
+        <target>Bonus passif de la stat. (en %)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_formation" datatype="html">
+        <source>Formation</source>
+        <target>Formation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_formation_desc" datatype="html">
+        <source>Formation stat bonus (in %)</source>
+        <target>Bonus de formation (en %)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_club" datatype="html">
+        <source>Club</source>
+        <target>Confédération</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_club_desc" datatype="html">
+        <source>Club stat bonus (in %)</source>
+        <target>Bonus de confédération (en %)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_final_stats" datatype="html">
+        <source>Final Stats</source>
+        <target>Stat. finales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_passive_skill_desc" datatype="html">
+        <source>Passive bonus (in %)</source>
+        <target>Bonus passif aux T.Speciale (en %)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/pages/special-skills/special-skills.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_special_skill_desc" datatype="html">
+        <source>Special skills power</source>
+        <target>Puissance de la T.Speciale</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/pages/special-skills/special-skills.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ui_final_skill_stats" datatype="html">
+        <source>Skill Final Stats</source>
+        <target>Stat. Finales T.Special</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/pages/special-skills/special-skills.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="attack" datatype="html">
+        <source>Attack</source>
+        <target>Attaque</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dribble" datatype="html">
+        <source>Dribble</source>
+        <target>Dribble</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shoot" datatype="html">
+        <source>Shot</source>
+        <target>Tir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pass" datatype="html">
+        <source>Pass</source>
+        <target>Passe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="defence" datatype="html">
+        <source>Defense</source>
+        <target>Défense</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tackle" datatype="html">
+        <source>Tackle</source>
+        <target>Tacle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="block" datatype="html">
+        <source>Block</source>
+        <target>Contre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="intercept" datatype="html">
+        <source>Intercept</source>
+        <target>Interception</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="saving" datatype="html">
+        <source>Saving</source>
+        <target>Parades</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="catch" datatype="html">
+        <source>Catch</source>
+        <target>Arrêt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="punch" datatype="html">
+        <source>Punch</source>
+        <target>Coup de poing</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="physical" datatype="html">
+        <source>Physical</source>
+        <target>Physique</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="speed" datatype="html">
+        <source>Speed</source>
+        <target>Rapidité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="power" datatype="html">
+        <source>Power</source>
+        <target>Puissance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="technique" datatype="html">
+        <source>Technique</source>
+        <target>Technicité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats/player-stats.component.ts</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/calculator/components/player-stats-result/player-stats-result.component.ts</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,113 @@
+<div class="stats result"  [hidden]="player.data.base.positionGk">
+  <table style="width:100%;border:none;" >
+    <thead>
+    <tr>
+      <th colspan="2" i18n="@@attack">Attack</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="left" i18n="@@dribble">Dribble</td>
+      <td class="right">
+        {{ specialSkills  ? player.dribble_skill : player.dribble }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@shoot">Shot</td>
+      <td class="right">
+        {{ specialSkills  ? player.shoot_skill : player.shoot }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@pass">Pass</td>
+      <td class="right">
+        {{ specialSkills  ? player.pass_skill : player.pass }}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="stats result"  [hidden]="player.data.base.positionGk">
+  <table style="width:100%;border:none;">
+    <thead>
+    <tr>
+      <th colspan="2" i18n="@@defence">Defense</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="left" i18n="@@tackle">Tackle</td>
+      <td class="right">
+        {{ specialSkills  ? player.tackle_skill : player.tackle }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@block">Block</td>
+      <td class="right">
+        {{ specialSkills  ? player.block_skill : player.block }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@intercept">Intercept</td>
+      <td class="right">
+        {{ specialSkills  ? player.intercept_skill : player.intercept }}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="stats result"  [hidden]="!player.data.base.positionGk">
+  <table style="width:100%;border:none;">
+    <thead>
+    <tr>
+      <th colspan="2" i18n="@@saving">Saving</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="left" i18n="@@catch">Catch</td>
+      <td class="right">
+        {{ specialSkills  ? player.catch_skill : player.catch }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@punch">Punch</td>
+      <td class="right">
+        {{ specialSkills  ? player.punch_skill : player.punch }}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="stats result" [class.disabled]="!physical">
+  <table style="width:100%;border:none;">
+    <thead>
+    <tr>
+      <th colspan="2" i18n="@@physical">Physical</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="left" i18n="@@speed">Speed</td>
+      <td class="right">
+        {{ player.speed }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@power">Power</td>
+      <td class="right">
+        {{ player.power }}
+      </td>
+    </tr>
+    <tr>
+      <td class="left" i18n="@@technique">Technique</td>
+      <td class="right">
+        {{ player.technique }}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

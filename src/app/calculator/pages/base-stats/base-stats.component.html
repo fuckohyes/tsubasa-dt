@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_base_stats">Base Stats</a></h5>
+      <div class="sub">&nbsp;</div>
+      <app-player-stats [player]="player" [stats]="player.data.base"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_passive">Passive</a></h5>
+      <div class="sub" i18n="@@ui_passive_desc">Passive stat bonus (in %)</div>
+      <app-player-stats [player]="player" [stats]="player.data.bonus['passive']" [bonus]="true"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_formation">Formation</a></h5>
+      <div class="sub" i18n="@@ui_formation_desc">Formation stat bonus (in %)</div>
+      <app-player-stats [player]="player" [stats]="player.data.bonus['formation']" [bonus]="true"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_club">Club</a></h5>
+      <div class="sub" i18n="@@ui_club_desc">Club stat bonus (in %)</div>
+      <app-player-stats [player]="player" [stats]="player.data.bonus['club']" [bonus]="true" [physical]="false"></app-player-stats>
+    </div>
+    <div class="col-sm d-xl-block">
+      <h5 class="text-center"><a name="base-stats" i18n="@@ui_final_stats">Final Stats</a></h5>
+      <div class="sub">&nbsp;</div>
+      <app-player-stats-result [player]="player"></app-player-stats-result>
+    </div>
+  </div>
+</div>
