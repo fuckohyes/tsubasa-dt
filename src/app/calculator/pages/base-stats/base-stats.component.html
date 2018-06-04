@@ -1,4 +1,26 @@
-<div class="container-fluid">
+<div class="container-fluid header" style="position:fixed;background-color: white;z-index: 9000">
+  <div class="row">
+    <div class="col">
+      <div style="text-align:center">
+        <table style="margin:auto;">
+          <tr>
+            <td>
+              <img style="margin-right: 10px;height: 55px;width: auto;" src="../../../../assets/{{player.data.base.rarity}}.png"/>
+            </td>
+            <td>
+              <div style="font-weight: bold">{{player.data.base.name[locale]}}</div>
+              <div>{{player.data.base.nickname[locale]}}</div></td>
+            <td>
+              <img style="margin-left:10px;" src="../../../../assets/type-{{player.data.base.attribute}}.png"/>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid content" style="padding-top:60px;">
   <div class="row">
     <div class="col-sm d-xl-block">
       <h5 class="text-center"><a name="base-stats" i18n="@@ui_base_stats">Base Stats</a></h5>

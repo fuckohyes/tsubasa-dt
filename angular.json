@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/theme.scss",
+              "node_modules/@covalent/core/common/platform.scss"
             ],
             "scripts": []
           },
@@ -44,6 +46,14 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/tsubasa-dt-en/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
             },
             "fr": {
               "aot": true,
@@ -88,6 +98,9 @@
             },
             "fr": {
               "browserTarget": "tsubasa-dt:build:fr"
+            },
+            "en": {
+              "browserTarget": "tsubasa-dt:build:en"
             },
             "prod-fr": {
               "browserTarget": "tsubasa-dt:build:production-fr"

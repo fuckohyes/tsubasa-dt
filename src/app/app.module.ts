@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import {PlayerStatsComponent} from './calculator/components/player-stats/player-stats.component';
 import {PlayerStatsResultComponent} from './calculator/components/player-stats-result/player-stats-result.component';
@@ -9,6 +8,11 @@ import { BaseStatsComponent } from './calculator/pages/base-stats/base-stats.com
 import {UserSettingsService} from './services/user-settings.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { SpecialSkillsComponent } from './calculator/pages/special-skills/special-skills.component';
+import { LOCALE_ID } from '@angular/core';
+import { CovalentLayoutModule } from '@covalent/core/layout';
+import { CovalentStepsModule  } from '@covalent/core/steps';
+import { MatIconModule, MatListModule, MatSlideToggleModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,10 +25,17 @@ import { SpecialSkillsComponent } from './calculator/pages/special-skills/specia
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CovalentLayoutModule,
+    CovalentStepsModule,
+    MatIconModule,
+    MatListModule,
+    MatSlideToggleModule,
+    BrowserAnimationsModule
   ],
   providers: [
-    UserSettingsService
+    UserSettingsService,
+    {provide: LOCALE_ID, useValue: 'fr' }
   ],
   bootstrap: [AppComponent]
 })
